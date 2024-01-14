@@ -2,7 +2,7 @@
 //MIT, 2016-present, WinterDev
 
 
-using System.Numerics;
+using Microsoft.Xna.Framework;
 namespace Typography.OpenFont
 {
     [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
