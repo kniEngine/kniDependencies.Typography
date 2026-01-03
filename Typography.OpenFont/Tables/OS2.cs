@@ -218,6 +218,9 @@ namespace Typography.OpenFont.Tables
             this.panose = reader.ReadBytes(10);
             //ULONG 	ulCharRange[4] 	Bits 0-31
             this.ulUnicodeRange1 = reader.ReadUInt32();
+            this.ulUnicodeRange2 = reader.ReadUInt32();
+            this.ulUnicodeRange3 = reader.ReadUInt32();
+            this.ulUnicodeRange4 = reader.ReadUInt32();
             //CHAR 	achVendID[4] 	 
             this.achVendID = reader.ReadUInt32();
             //USHORT 	fsSelection 	 
