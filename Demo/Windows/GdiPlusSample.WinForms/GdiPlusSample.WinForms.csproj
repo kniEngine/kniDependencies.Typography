@@ -39,7 +39,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
-    <PackageReference Include="nkast.Xna.Framework" Version="3.10.9001" />
+    <PackageReference Include="nkast.Xna.Framework" Version="4.2.9001" />
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
